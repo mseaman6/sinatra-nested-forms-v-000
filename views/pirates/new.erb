@@ -8,13 +8,15 @@
     <h1>Enter the Pirate and Ship Info Here:</h1>
 
     <form action="/pirates" method="post">
-      <label>Pirate Name: </label><input type="text" name="student[name]">
-      <label>Pirate Weight: </label><input type="text" name="student[grade]">
-
-      <label>Course Name: </label><input type="text" name="student[courses][][name]">
-      <label>Course Topic: </label><input type="text" name="student[courses][][topic]">
-      <label>Course Name: </label><input type="text" name="student[courses][][name]">
-      <label>Course Topic: </label><input type="text" name="student[courses][][topic]">
+      <label>Pirate Name: </label><input type="text" name="pirate[name]">
+      <label>Pirate Weight: </label><input type="text" name="pirate[weight]">
+      <label>Pirate Height: </label><input type="text" name="pirate[height]">
+      <label>Ship Name: </label><input type="text" name="pirate[ships][][name]">
+      <label>Ship Type: </label><input type="text" name="pirate[ships][][type]">
+      <label>Ship Booty: </label><input type="text" name="pirate[ships][][booty]">
+      <label>Ship Name: </label><input type="text" name="pirate[ships][][name]">
+      <label>Ship Type: </label><input type="text" name="pirate[ships][][type]">
+      <label>Ship Booty: </label><input type="text" name="pirate[ships][][booty]">
       <input type="submit" name="Submit">
     </form>
   </body>
